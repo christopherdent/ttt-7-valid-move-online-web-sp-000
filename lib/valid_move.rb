@@ -1,8 +1,8 @@
-
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, index)
   
-  if !position_taken?(board, index) && (0, 8)
+  if !position_taken?(board, index) && index(0, 8)
   end
 
 end 
