@@ -1,7 +1,7 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
     false 
-  elsif position_taken
+  elsif index.between (1, 0)
     execute something
   else
     end 
