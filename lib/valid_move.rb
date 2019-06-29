@@ -1,3 +1,12 @@
+def valid_move?(board, index)
+  if position_taken?(board, index)
+    false 
+  else
+    execute something
+  else
+    end 
+
+
 def position_taken?(board, index)
   if board[0] == "X"
     true 
@@ -8,13 +17,7 @@ def position_taken?(board, index)
   end
 end 
 
-def valid_move?(board, index)
-  if position_taken?
-    execute something
-  else
-    execute something
-  else
-    end 
+
 
 end
 
