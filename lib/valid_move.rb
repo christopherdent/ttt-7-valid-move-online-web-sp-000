@@ -9,9 +9,12 @@ def position_taken?(board, index)
 end 
 
 def valid_move?(board, index)
-  if position_taken?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
-    true
-  end 
+  if position_taken?
+    execute something
+  else
+    execute something
+  else
+    end 
 
 end
 
