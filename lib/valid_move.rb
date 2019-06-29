@@ -1,4 +1,17 @@
-# code your #valid_move? method here
+def position_taken?(board, index)
+  if board[0] == "X"
+    true 
+  elsif board[8] == "O"
+    true
+  elsif board[0] == " " || ""
+    false 
+  end
+end 
 
+def valid_move?(board, index)
+  if position_taken?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
+    true
+  end 
 
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+end
+
